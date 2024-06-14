@@ -36,6 +36,34 @@ Make sure you have Node.js and npm installed on your machine.
 
 ### Clone the Repository
 
-```bash
 git clone https://github.com/your-username/GameStack.git
 cd GameStack
+Install Dependencies for Frontend
+cd frontend
+npm install
+Install Dependencies for Backend
+cd ../backend
+npm install
+Run the Application
+cd frontend
+npm start
+The frontend will run on http://localhost:3000.
+cd backend
+npm start
+The backend will run on http://localhost:5000 (or your configured port).
+API Endpoints
+Here are the primary API endpoints used in GameStack:
+
+GET /api/games: Retrieve a list of all games.
+POST /api/games: Add a new game.
+GET /api/games/
+: Retrieve details of a specific game by ID.
+PUT /api/games/
+: Update details of a specific game by ID.
+DELETE /api/games/
+: Delete a specific game by ID.
+Usage
+Home Page: View the list of games in your collection.
+Add Game: Use the form to add new games to your collection.
+Edit Game: Edit existing game details.
+Delete Game: Remove games from your collection.
