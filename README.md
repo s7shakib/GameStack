@@ -36,17 +36,17 @@ Make sure you have Node.js and npm installed on your machine.
 
 ### Clone the Repository
 
-**git clone https://github.com/your-username/GameStack.git
-**cd GameStack
-**Install Dependencies for Frontend
-**cd frontend
-**npm install
-**Install Dependencies for Backend
-**cd ../backend
-**npm install
-**Run the Application
-**cd frontend
-**npm start
+**git clone https://github.com/your-username/GameStack.git**
+**cd GameStack**
+**Install Dependencies for Frontend**
+**cd frontend**
+**npm install**
+**Install Dependencies for Backend**
+**cd ../backend**
+**npm install**
+**Run the Application**
+**cd frontend**
+**npm start**
 ### The frontend will run on http://localhost:3000.
 cd backend
 npm start
